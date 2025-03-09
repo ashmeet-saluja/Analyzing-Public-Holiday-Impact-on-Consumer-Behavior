@@ -2,7 +2,7 @@
 ## Overview
 This project aims to analyze the impact of public holidays on consumer behavior using transaction data from an e-commerce platform. The dataset includes information about sales, product purchases, returns, public holidays (such as Christmas, New Year, and Thanksgiving), and other related attributes. The objective is to understand how public holidays influence consumer spending, product returns, and purchasing patterns across different countries.
 
-Project Structure
+##Project Structure
 bash
 Copy
 Edit
@@ -30,7 +30,8 @@ CustomerID: The ID of the customer.
 Country: The country where the customer is located (USA, UK, Germany, France, Canada).
 Holiday: A binary indicator for public holidays (1 for holiday, 0 for non-holiday).
 Sales: The total sales amount (Quantity * Price). Negative values represent returns.
-Objective
+
+## Objective
 The goal of this project is to analyze how sales, returns, and customer behavior are affected by public holidays, such as:
 
 Christmas
@@ -43,7 +44,8 @@ Data Cleaning: Handle missing values, outliers, and incorrect data.
 Exploratory Data Analysis (EDA): Visualize the distribution of sales and returns, analyze trends, and compare sales on public holidays vs non-holidays.
 Hypothesis Testing: Perform statistical tests to determine if there are significant differences in consumer behavior on holidays vs regular days.
 Insights Generation: Provide actionable insights for businesses based on the analysis.
-Requirements
+
+## Requirements
 To run the analysis, you need the following Python packages:
 
 pandas
@@ -86,7 +88,7 @@ Edit
 jupyter notebook analysis/data_analysis.ipynb
 Alternatively, you can run the Python script directly (if available) for the analysis.
 
-Data Analysis
+## Data Analysis
 The data analysis includes the following steps:
 
 Loading the Data:
@@ -110,9 +112,9 @@ Provide recommendations for businesses on how to optimize sales around public ho
 Contributing
 Feel free to fork this repository and submit pull requests for any improvements or additional features. If you have any questions or suggestions, open an issue in the repository.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 This dataset was synthetically generated for educational purposes.
 Thanks to the open-source community for the libraries used in this project (Pandas, NumPy, Matplotlib, etc.).
