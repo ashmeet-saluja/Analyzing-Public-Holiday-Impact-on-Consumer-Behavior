@@ -1,5 +1,5 @@
 # Analyzing-Public-Holiday-Impact-on-Consumer-Behavior
-Overview
+## Overview
 This project aims to analyze the impact of public holidays on consumer behavior using transaction data from an e-commerce platform. The dataset includes information about sales, product purchases, returns, public holidays (such as Christmas, New Year, and Thanksgiving), and other related attributes. The objective is to understand how public holidays influence consumer spending, product returns, and purchasing patterns across different countries.
 
 Project Structure
@@ -16,7 +16,8 @@ holiday-sales-impact/
 │
 ├── README.md                      # Project overview and instructions
 └── requirements.txt                # Python dependencies
-Dataset Description
+
+## Dataset Description
 The dataset (holiday_sales_dataset.csv) contains 500,000 rows with the following fields:
 
 Invoice: A unique identifier for each transaction.
